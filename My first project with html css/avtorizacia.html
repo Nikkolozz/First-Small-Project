@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/neew.png" />
+    <link rel="stylesheet" href="avtorizacia.css" />
+    <title>ავტორიზაცია</title>
+</head>
+<body>
+    <div class="links"> 
+        <a href="index.html"> <img src="images/neew.png"> </a>
+            </div>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>რეგისტრაცია</h1>
+          <p>გთხოვთ შეავსოთ ეს ფორმა ანგარიშის შესაქმნელად.</p>
+          <hr>
+      
+          <label for="email"><b style="color:rgb(250, 203, 141)">მაილი</b></label>
+          <input type="text" placeholder="ჩაწერეთ მაილი" name="email" required>
+      
+          <label for="psw"><b style="color:rgb(250, 203, 141)">პაროლი</b></label>
+          <input type="password" placeholder="ჩაწერეთ პაროლი" name="psw" required>
+      
+          <label for="psw-repeat"><b style="color:rgb(250, 203, 141)">პაროლის გამეორება</b></label>
+          <input type="password" placeholder="გაიმეორეთ პაროლი" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> დამახსოვრება
+          </label>
+      
+          <p>ანგარიშის შექმნით თქვენ ეთანხმებით ჩვენს <a href="#" style="color:rgb(250, 93, 93)">პირობებს</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">გაუქმება</button>
+            <button type="submit" class="signupbtn">რეგისტრაცია</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>

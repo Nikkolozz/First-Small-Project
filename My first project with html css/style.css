@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Mtavruli";
+    src: url(fonts/bpg_nino_mtavruli_bold.ttf);
+}
+body {
+    height: 3000px;
+    background-color: #eccf91;
+}
+html::-webkit-scrollbar {
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #e49e06;
+}
+html::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background-image: url(images/icons/suratii.jpg);/* green background */
+    color: white; /* white text color */
+}
+  
+  /* Increase the font size of the <h1> element */
+.header h1 {
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+.header h1 a {
+    text-decoration: none;
+    color: white;
+}
+.header h1 a:hover {
+    color: #eeab1c;
+    transition: 0.5s;
+}
+.header p {
+    font-family: "Mtavruli";
+}
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
+  /* Style the navigation bar links */
+.navbar a {
+    font-size: 14px;
+    font-family: "Mtavruli";
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+  
+  /* Right-aligned link */
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+  
+  /* Change color on hover/mouse-over */
+.navbar a:hover {
+    transition: 0.5s;
+    background-color: rgb(248, 242, 225); /* Grey background color */
+    color: #eeab1c; /* Black text color */
+}
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+}
+.footer {
+    height: 65px;
+    transform: translateY(3100px);
+    padding: 20px; 
+    text-align: right; 
+    text-decoration: none;
+    background: #201f1f;
+}
+.footer p {
+    margin-left: 170px;
+    width: 1200px;
+    transform: translateY(5px);
+    font-family: "Mtavruli";
+    font-size: 14px;
+    color: white;
+}
+.footer i {
+    transform: translateY(-8px);
+    font-size: 12px;
+    font-family: "Mtavruli";
+    float: left;
+    color: white;
+}
+.container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    text-align: center;
+}
+.container h1 {
+    font-family: 'Staatliches', cursive;
+    transform: translateY(50px);
+    margin-left: 855px;
+    cursor: pointer;
+    width: 200px;
+}
+.container h1:hover {
+    color: #ffffff;
+    transition: 0.3s; 
+}
+.one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #eccf91;
+    height: 1000px;
+    justify-content: center;
+}
+
+.two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f0c976;
+    height: 1000px;
+    justify-content: center;
+}
+.three {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f0d08b;
+    height: 1000px;
+    justify-content: center;
+}
+.text1 {
+    font-family: "Mtavruli";
+    color: rgb(240, 230, 230);
+    font-size: 15px;
+    text-align: center;
+    transform: translateY(2039px);
+}
+.photos1 img {
+    width: 17em;
+    height: 10em;
+    margin: 1.5%;
+    border-radius: 5%;
+    border: 0.3em solid #fff;
+    cursor: pointer;
+}
+.photos1 img:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: 0.2s;
+} 
+.photos1 .images3 {
+    width: 17em;
+    height: 16em;
+}
+.photos1 .images1, .images2 {
+    transform: translateY(-96px);
+}
+.photos2 img {
+    width: 17em;
+    height: 10em;
+    margin: 1.5%;
+    border-radius: 5%;
+    border: 0.3em solid #fff;
+    cursor: pointer;
+}
+.photos2 img:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: 0.2s;
+} 
+.photos2 .images4 {
+    width: 17em;
+    height: 16em;
+    transform: translateY(-100px);
+}
+.photos2 .images5 {
+    transform: translateY(-195px);
+}
+.photos2 .images6 {
+    transform: translateY(-100px);
+}
+.photos3 img {
+    width: 17em;
+    height: 10em;
+    margin: 1.5%;
+    border-radius: 5%;
+    border: 0.3em solid #fff;
+    cursor: pointer;
+}
+.photos3 img:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: 0.2s;
+} 
+.photos3 .images8 {
+    width: 17em;
+    height: 16em;
+    transform: translateY(-195px);
+}
+.photos3 .images7 {
+    transform: translateY(-195px);
+}
+.photos3 .images9 {
+    transform: translateY(-195px);
+}
+.photos1, .photos2, .photos3 {
+    transform: translateY(50px);
+}
+.searchbar {
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    transform: translateY(30px);
+    background: #fff;
+    width: 550px;
+    height: 45px;
+    display: flex;
+}
+form input {
+    flex: 1;
+    outline: none;
+    border: none;
+}
+form button {
+    background: #eeab1c;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form .fa-search {
+    align-self: center;
+    padding: 10px 20px;
+    color: #eeab1c;
+}
+.text-block1 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 245px;
+    left: 495px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block1 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block1 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block2 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 245px;
+    left: 830px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+    
+}
+.text-block2 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block2 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block3 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 245px;
+    left: 1165px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block3 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block3 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block4 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 345px;
+    left: 495px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block4 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block4 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block5 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 345px;
+    left: 830px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block5 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block5 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block6 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    transform: translateY(-285px);
+    left: 1165px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block6 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block6 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block7 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 342px;
+    left: 495px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block7 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block7 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block8 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 438px;
+    left: 830px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block8 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block8 a:hover {
+    color: rgb(255, 0, 0);
+}
+.text-block9 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    transform: translateY(-378px);
+    left: 1165px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text-block9 a {
+    text-decoration: none;
+    color: white;
+}
+.text-block9 a:hover {
+    color: rgb(255, 0, 0);
+}
+.fa-instagram {
+    text-decoration: none;
+    background: #c477aa;
+    color: white;
+}
+.fa-facebook {
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    text-decoration: none;
+    background: #55ACEE;
+    color: white;
+}
+.fa-facebook, .fa-instagram, .fa-twitter {
+    border-radius: 20%;
+    transform: translateY(-8px);
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    padding: 2px;
+}
+.avatar {
+    margin-top: 10px;
+    transform: translateX(-15px);
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}

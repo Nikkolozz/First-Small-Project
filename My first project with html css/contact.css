@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(250, 245, 219);
+}
+.links {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20px;
+    height: 30px;
+    transform: translateY(50px);
+    font-size: 25px;
+    margin-left: 60px;
+}
+.links a {
+    text-decoration: none;
+    color: #ffc74e;
+}
+.links a:hover {
+    color: black;
+    transition: 0.5s;
+}
+img {
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+}

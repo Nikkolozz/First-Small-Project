@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@font-face {
+    font-family: "Mtavruli";
+    src: url(fonts/bpg_nino_mtavruli_bold.ttf);
+}
+body {
+    background-color: rgb(250, 245, 219);
+
+}
+.container .photo1 {
+    width: 600px;
+    height: 700px;
+    transform: translateX(570px);
+    margin-top: 135px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px 5px #e6be69;
+    cursor: pointer;
+}
+.container .photo1:hover {
+    transition: 0.5s;
+    box-shadow: 4px 2px 4px 2px rgb(53, 52, 52);
+}
+.box {
+    width: 400px;
+    height: 600px;
+    background-color: #ffc74e;
+    transform: translateX(1300px);
+    margin-top: -700px;
+    border-radius: 30% 7% 30% 7%;
+    box-shadow: 5px 4px 5px 4px rgb(221, 218, 218);
+}
+.box:hover {
+    border-radius: 7% 30% 7% 30%;
+    transition: 1s;
+    color: rgb(82, 83, 83);
+    box-shadow: 5px 4px 5px 4px rgb(138, 135, 135);
+}
+.sale {
+    width: 90px;
+    height: 60px;
+    transform: translateY(-700px);
+    margin-left: 497px;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-family:"Mtavruli"; 
+}
+.box h4 {
+    font-size: 18px;
+    transform: translateY(-35px);
+    margin-left: -2px;
+}
+.links {
+    width: 20px;
+    height: 30px;
+    transform: translateY(50px);
+    font-size: 25px;
+    margin-left: 60px;
+}
+.links a {
+    text-decoration: none;
+    color: #ffc74e;
+}
+.links a:hover {
+    color: black;
+    transition: 0.5s;
+}
+img {
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+}
+button {
+    padding: 3px;
+    font-family: "Mtavruli";
+    width: 200px;
+    margin-left: 70px;
+    transform: translateY(-90px);
+    font-size: 23px;
+    color: rgb(53, 52, 52);
+    border: 2% solid black;
+}
+button:hover {
+    border: 2px solid white;
+    background-color: rgb(255, 242, 170);
+}
+.teext1 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext1:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext2 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext2:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext3 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext3:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext4 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext4:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext5 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext5:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext6 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext6:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext7 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext7:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext8 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext8:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.teext9 {
+    font-family: "Mtavruli";
+    text-decoration: none;
+    color: black;
+}
+.teext9:hover {
+    color: rgb(252, 243, 232);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}

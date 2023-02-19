@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: "Mtavruli";
+}
+@font-face {
+  src: url(fonts/bpg_nino_mtavruli_bold.ttf);
+  font-family: "Mtavruli";
+}
+.links {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 20px;
+  height: 30px;
+  transform: translateY(50px);
+  font-size: 25px;
+  margin-left: 60px;
+}
+.links a {
+  text-decoration: none;
+  color: #ffc74e;
+}
+.links a:hover {
+  color: black;
+  transition: 0.5s;
+}
+img {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+body {
+  background-color: #eccf91;
+}
+h1 {
+  color: #e49e06;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #e49e06;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #eccf91;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+form {
+  transform: translateX(590px);
+  margin-top: 150px;
+  width: 750px;
+  background-color: white;
+}
